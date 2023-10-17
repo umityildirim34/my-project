@@ -1,0 +1,5 @@
+/*
+
+* "arayuz" ve "program" klasörleri "src" klasörüne konur.
+
+*/
