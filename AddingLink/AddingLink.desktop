@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Exec=bash -c "java -jar $(pwd)/AddingLink.jar"
+Icon=bash -c "$(pwd)/gsm_simge_20220225_150011.png"
+Terminal=false
+Categories=Utility;Development;
+Name[en_EN]=Adding Link
+Name[tr_TR]=Link Ekleme
