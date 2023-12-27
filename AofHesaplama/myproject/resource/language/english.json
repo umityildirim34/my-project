@@ -1,0 +1,69 @@
+{
+    "sve_map_mainpage":
+    {   
+        "sve_map_wgt_ttl_page_title": "MAIN PAGE",
+        "sve_map_wgt_ic_menu_icon": "Menu icon",
+
+        "sve_map_wgt_menu_feedback_title": "Passing to the page we make feedback to developer.",
+        "sve_map_wgt_menu_feedback_item": "FEEDBACK",
+        "sve_map_wgt_menu_about_title": "Passing to the page that we pick info about developer.",
+        "sve_map_wgt_menu_about_item": "ABOUT",
+        "sve_map_wgt_menu_user_agreement_title": "Passing to the page of user agreement.",
+        "sve_map_wgt_menu_user_agreement_item": "USER AGREEMENT",
+
+        "sve_map_wgt_pg_minimum_point": "Minimum score you must get:",
+        
+        "sve_map_wgt_pg_how_many_points": "How many scores must I get from final exam?",
+        "sve_map_wgt_in_midterm_note": "Enter midterm score...",
+        "sve_map_wgt_btn_calculate": "CALCULATE",
+
+        "sve_map_prg_ex_maximum_count_exception": "Sorry. Maximum 100 scores are allowed.",
+        "sve_map_prg_ex_negative_count_exception": "Sorry. The score cannot be negative.",
+        "sve_map_prg_ex_null_value_exception": "Sorry. There is empty input.",
+        
+        "sve_map_prg_alr_use_right": "The use right of the app ended."
+    },
+
+    "sve_fbp_feedback":
+    {   
+        "sve_fbp_wgt_ttl_page_title": "FEEDBACK",
+
+        "sve_fbp_wgt_ln_main_page": "main page",
+        "sve_fbp_wgt_ln_explanation": "Passing to main page.",
+        "sve_fbp_wgt_ln_feedback": "FEEDBACK",
+
+        "sve_fbp_wgt_pg_feedback_text": "You can contact us about your questions and our program.",
+
+        "sve_fbp_wgt_pg_developer": "Developer: Ümit Yıldırım",
+
+        "sve_fbp_wgt_ic_whatsapp": "Whatsapp icon",
+        "sve_fbp_wgt_ic_telegram": "Telegram icon",
+        "sve_fbp_wgt_ic_gmail": "Gmail icon",
+
+        "sve_fbp_jsp_msg_number": "+905445258201",
+        "sve_fbp_jsp_msg_email": "umityildirim3410@gmail.com",
+        "sve_fbp_jsp_msg_subject": "Hello&nbsp;",
+        "sve_fbp_jsp_msg_body": "Hello&nbsp;"
+    },
+
+	"sve_abp_about":
+    {
+        "sve_abp_wgt_ttl_page_title": "ABOUT",
+
+        "sve_abp_wgt_ln_main_page": "main page",
+        "sve_abp_wgt_ln_explanation": "Passing to main page.",
+        "sve_abp_wgt_ln_about": "ABOUT",
+        "sve_abp_wgt_pg_about": "The application is valid for Anadolu University Open Education Faculty. It asks you for your midterm exam score. It calculates the minimum score you need to get in the final exam. Midterm exam grade is taken as 30 percent and final exam score is 70 percent."
+    },
+
+    "sve_uap_user_agreement":
+    {
+        "sve_uap_wgt_ttl_page_title": "USER AGREEMENT",
+
+        "sve_uap_wgt_ln_main_page": "main page",
+        "sve_uap_wgt_ln_explanation": "Passing to main page.",
+        "sve_uap_wgt_ln_user_agreement": "USER AGREEMENT",
+        "sve_uap_wgt_pg_user_agreement": "1) This application has been developed for Pardus by a software engineer named Ümit Yıldırım, who has a phone number of 0544 525 82 01 and an email address of umityildirim3410@gmail.com. It cannot sold for money. \n\n 2) The application may be copied for use by third parties. However, it cannot be copied for sales purposes."
+    }
+
+}

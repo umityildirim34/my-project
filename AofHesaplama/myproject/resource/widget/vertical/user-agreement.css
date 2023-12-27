@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media all and (orientation:portrait) {
+  
+  body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #eaeaea;
+  }
+
+  #uap-dv-main-widget {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 90%;
+  }
+
+
+  #uap-dv-website-path {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .uap-dvc-divisions {
+    border-width: 0.3vw;
+    margin: 2.5vw;
+    background: white;
+    border-radius: 1vw;
+    box-shadow: 3px 3px 4px #c1c1c1;
+  }
+
+
+  .uap-lnc-links {
+    font-size: 5vw;
+  }
+
+
+  #uap-dv-agreement {
+    overflow: auto;
+  }
+
+
+  #uap-pg-agreement {
+    margin: 1vw;
+    font-size: 5vw;
+  }
+  
+}

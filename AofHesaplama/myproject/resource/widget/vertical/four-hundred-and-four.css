@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media all and (orientation:portrait) {
+  
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+  }
+  
+  #fhfp-dv-main-widget {
+    width: 90vw;
+    height: 90vh;
+    border-width: 0.3vw;
+    border-radius: 2vw;
+    box-shadow: 3px 3px 4px #c1c1c1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  #fhfp-pg-error {
+    font-size: 4vw;
+    text-align: center;
+  }
+  
+  a {
+    text-align: center;
+  }
+  
+}

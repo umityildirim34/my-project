@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+	--first-degree-light-gray: #e0dede;
+	--second-degree-light-gray: #cfcdcd;
+}
+
+
+@media all and (orientation:landscape) {
+  
+   
+  body {
+      max-width: 100vw;
+      max-height: 100vh;
+  }
+   
+
+    
+  /* ----------------------- Main Widget Side ----------------------- */
+
+  #map-dv-main-widget {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 7% 93%;
+    background: var(--second-degree-light-gray);
+  }
+
+
+  /* ----------------------- Menu Bar ----------------------- */
+
+  #map-nv-menu-bar {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background: white;
+  }
+
+
+  #map-dv-menu-button {
+    display: none;
+  }
+
+
+  #map-dv-horizontal-menu {
+    height: 6.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    
+  }
+
+
+  .map-dvc-hrz-menu {
+    height: 2.7vh;
+    font-size: 1.6vw;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+    margin-right: 1.3vw;
+    padding: 1vw;
+    text-decoration: none;
+  }
+
+
+  .map-dvc-hrz-menu:hover {
+    font-size: 1.6vw;
+    text-decoration: none;
+    background-color: #fdbe48;
+  }
+
+
+
+  /* ----------------------- Program ---------------------------- */
+
+  #map-dv-program {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    overflow: auto;
+    display: flex;
+  }
+
+
+  .map-dvc-sub-program {
+    width: 47vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-degree-light-gray);
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: .5vw;
+  }
+
+  p {
+    margin: 1vw;
+    font-size: 2vw;
+  }
+  
+
+  input {
+    width: 18vw;
+    height: 5vh;
+    margin: 0.5vw;
+    padding-left: 0.5vw;
+    font-size: 1.5vw;
+  }
+  
+
+  #map-btn-calculate {
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.5vw;
+    margin: 0.5vw;
+    
+  }
+
+  /* ----------------------- Menü List ---------------------------- */
+  
+  #map-as-menu-lst {
+    display: none;
+  }
+
+  /* ----------------------- ------ ----------------------- */
+
+}

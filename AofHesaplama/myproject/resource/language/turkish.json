@@ -1,0 +1,69 @@
+{   
+    "sve_map_mainpage":
+    {   
+        "sve_map_wgt_ttl_page_title": "ANA SAYFA",
+        "sve_map_wgt_ic_menu_icon": "Menü simgesi",
+
+        "sve_map_wgt_menu_feedback_title": "Geliştiriciye geribildirim yapabileceğimiz sayfaya geçer.",
+        "sve_map_wgt_menu_feedback_item": "GERİBİLDİRİM",
+        "sve_map_wgt_menu_about_title": "Geliştirici hakkında bilgi alabileceğimiz sayfaya geçer.",
+        "sve_map_wgt_menu_about_item": "HAKKINDA",
+        "sve_map_wgt_menu_user_agreement_title": "Kullanıcı sözleşmesi sayfasına geçer.",
+        "sve_map_wgt_menu_user_agreement_item": "KULLANICI SÖZLEŞMESİ",
+
+        "sve_map_wgt_pg_minimum_point": "En az alınması gereken puan:",
+        
+        "sve_map_wgt_pg_how_many_points": "Dönem sonu sınavından en az kaç almalıyım?",
+        "sve_map_wgt_in_midterm_note": "Ara sınav notu giriniz...",
+        "sve_map_wgt_btn_calculate": "HESAPLA",
+
+        "sve_map_prg_ex_maximum_count_exception": "Afedersiniz. Azami sayı 100 olabilir.",
+        "sve_map_prg_ex_negative_count_exception": "Afedersiniz. Not sıfırın altında olamaz.",
+        "sve_map_prg_ex_null_value_exception": "Afedersiniz. Not girmediniz.",
+        
+        "sve_map_prg_alr_use_right": "Uygulamanın kullanım hakkı bitmiştir."
+        
+    },
+
+    "sve_fbp_feedback":
+    {
+        "sve_fbp_wgt_ttl_page_title": "GERİBİLDİRİM",
+
+        "sve_fbp_wgt_ln_main_page": "ana sayfa",
+        "sve_fbp_wgt_ln_explanation": "Anasayfaya geçer.",
+        "sve_fbp_wgt_ln_feedback": "GERİBİLDİRİM",
+
+        "sve_fbp_wgt_pg_feedback_text": "Sorularınız ve programımızın gelişimiyle ilgili bize yazabilirsiniz.",
+
+        "sve_fbp_wgt_pg_developer": "Geliştirici: Ümit Yıldırım",
+        
+        "sve_fbp_wgt_ic_whatsapp": "Whatsapp simgesi",
+        "sve_fbp_wgt_ic_telegram": "Telegram simgesi",
+        "sve_fbp_wgt_ic_gmail": "Gmail simgesi",
+
+        "sve_fbp_jsp_msg_number": "+905445258201",
+        "sve_fbp_jsp_msg_email": "umityildirim3410@gmail.com",
+        "sve_fbp_jsp_msg_subject": "Hello&nbsp;",
+        "sve_fbp_jsp_msg_body": "Hello&nbsp;"
+    },
+
+	"sve_abp_about":
+    {
+        "sve_abp_wgt_ttl_page_title": "HAKKINDA",
+
+        "sve_abp_wgt_ln_main_page": "ana sayfa",
+        "sve_abp_wgt_ln_explanation": "Anasayfaya geçer.",
+        "sve_abp_wgt_ln_about": "HAKKINDA",
+        "sve_abp_wgt_pg_about": "Uygulama, Anadolu Üniversitesi Açıköğretim Fakültesi için geçerlidir. Sizden ara sınav notunuzu ister. Dönem sonu sınavından en az kaç almanız gerektiğini hesaplar. Ara sınav notu yüzde 30, dönem sonu sınavı yüzde 70 baz alınır."
+    },
+
+    "sve_uap_user_agreement":
+    {
+        "sve_uap_wgt_ttl_page_title": "KULLANICI SÖZLEŞMESİ",
+
+        "sve_uap_wgt_ln_main_page": "ana sayfa",
+        "sve_uap_wgt_ln_explanation": "Anasayfaya geçer.",
+        "sve_uap_wgt_ln_user_agreement": "KULLANICI SÖZLEŞMESİ",
+        "sve_uap_wgt_pg_user_agreement": "1) Bu uygulama, 0544 525 82 01 telefon numarasına, umityildirim3410@gmail.com eposta adresine sahip Ümit Yıldırım isimli yazılım mühendisi tarafından Pardus adına geliştirilmiştir. Parayla satılamaz. \n\n 2) Uygulama üçüncü kişilere kullanmak amacıyla kopyalanabilir. Ancak satış amaçlı kopyalanamaz."
+    }
+}

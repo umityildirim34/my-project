@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media all and (orientation:landscape) {
+  
+  body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #eaeaea;
+  }
+
+  #fbp-dv-main-widget {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% auto;
+  }
+  
+  .fbp-dvc-divisions {
+    border-width: 0.3vw;
+    background: white;
+    border-radius: 1vw;
+    box-shadow: 3px 3px 4px #c1c1c1;
+    margin: 1vw;
+  }
+
+  #fbp-dv-website-path {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fbp-lnc-links {
+    font-size: 2vw;
+  }
+  
+  #fbp-dv-division1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #fbp-dv-division2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #fbp-dv-button {
+    text-align: center;
+  }
+  
+  .fbp-dvc-icon {
+    width: auto;
+    height: 10vh;
+    margin: 0.5vw;
+  }
+
+	.fbp-dvc-icon:hover {
+    width: auto;
+    height: 9vh;
+    margin: 0.5vw;
+  }
+  
+  #fbp-pg-feedback-text, #fbp-pg-developer {
+    font-size: 2vw;
+    margin: 0.3vw;
+    text-align: center;
+  }
+  
+}
+
+/* Yatay görüntüde margin değerlerini tek yek verdik. Çünkü bunda display flex kullandık (kapsayıcı div içinde) */

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* static String strFirstDegreeLightGray = "#e0dede";
+static String strSecondDegreeLightGray = "#cfcdcd"; */
+  
+@media all and (orientation:landscape) {
+  
+  
+  body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #eaeaea;
+  }
+
+  #abp-dv-main-widget {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 90%;
+  }
+
+
+  #abp-dv-website-path {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .abp-dvc-divisions {
+    border-width: 0.3vw;
+    background: white;
+    border-radius: 1vw;
+    box-shadow: 3px 3px 4px #c1c1c1;
+    margin: 1vw;
+  }
+
+
+  #abp-dv-about {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .abp-lnc-links {
+    font-size: 2vw;
+  }
+
+  
+  .abp-pg-text {
+    margin: 1vw;
+    font-size: 2vw;
+  }
+  
+}
